@@ -1,0 +1,30 @@
+//点击跳转页面
+$(".dianji1").click(function(){
+	window.location.href="index.html";
+});
+$(".dianji2").click(function(){
+	window.location.href="index2.html";
+});
+$(".dianji3").click(function(){
+	window.location.href="index3.html";
+});
+$(".dianji4").click(function(){
+	window.location.href="index4.html";
+});
+$(".dianji5").click(function(){
+	window.location.href="index5.html";
+});
+$(".dianji6").click(function(){
+	window.location.href="index6.html";
+});
+$(".dianji7").click(function(){
+	window.location.href="index7.html";
+});
+
+//导航变色
+$(".zuocebox").mouseover(function(){
+	$(this).css({"background":"#f78314","font-size":"15px"}).children("a").css("color","#491304")
+});
+$(".zuocebox").mouseout(function(){
+	$(this).css({"background":"","font-size":"","color":""}).children("a").css("color","")
+});
